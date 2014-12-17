@@ -245,34 +245,96 @@ nav {
   .main-content .tabs {
     box-sizing: border-box;
     height: 100%; }
-    /* line 271, /Applications/MAMP/htdocs/crawler2/css/index.scss */
-    .main-content .tabs .inner .cell {
-      margin: 20px 10px;
-      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-      box-sizing: border-box; }
-      /* line 276, /Applications/MAMP/htdocs/crawler2/css/index.scss */
-      .main-content .tabs .inner .cell .header {
-        background-color: #e9e9e9;
-        border-bottom: 1px solid #ccc;
-        width: 100%;
-        padding: 10px;
+    /* line 269, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .main-content .tabs .inner {
+      position: relative; }
+      /* line 272, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+      .main-content .tabs .inner .cell {
+        margin: 20px 10px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
         box-sizing: border-box; }
-        /* line 283, /Applications/MAMP/htdocs/crawler2/css/index.scss */
-        .main-content .tabs .inner .cell .header h3 {
-          margin: 0;
+        /* line 277, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+        .main-content .tabs .inner .cell .header {
+          background-color: #e9e9e9;
+          border-bottom: 1px solid #ccc;
+          width: 100%;
           padding: 10px;
-          color: #585858; }
-      /* line 289, /Applications/MAMP/htdocs/crawler2/css/index.scss */
-      .main-content .tabs .inner .cell .content {
-        padding: 20px;
-        box-sizing: border-box;
-        background-color: #fff; }
+          box-sizing: border-box; }
+          /* line 284, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+          .main-content .tabs .inner .cell .header h3 {
+            margin: 0;
+            padding: 10px;
+            color: #585858; }
+        /* line 290, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+        .main-content .tabs .inner .cell .content {
+          padding: 20px;
+          box-sizing: border-box;
+          background-color: #fff; }
 
-/* line 303, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+/* line 301, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+#saving-indicator {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+  z-index: 99999;
+  border-radius: 4px;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  opacity: 0.7;
+  box-sizing: border-box;
+  display: none; }
+  /* line 317, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  #saving-indicator .text {
+    vertical-align: middle;
+    display: inline-block; }
+  /* line 322, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  #saving-indicator img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+    display: inline-block; }
+
+/* line 330, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.form-control {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+  /* line 335, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .form-control button {
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    margin-left: -4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+    cursor: pointer; }
+    /* line 349, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .form-control button:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); }
+    /* line 353, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .form-control button i {
+      font-size: 22px;
+      color: #fff; }
+  /* line 358, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .form-control .save {
+    background: #2bbe2b; }
+  /* line 363, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .form-control .cancel {
+    background: #db4437; }
+
+/* line 371, /Applications/MAMP/htdocs/crawler2/css/index.scss */
 #profile .input-forms {
   padding-top: 20px; }
 
-/* line 310, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+/* line 378, /Applications/MAMP/htdocs/crawler2/css/index.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -281,20 +343,20 @@ nav {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 319, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+/* line 387, /Applications/MAMP/htdocs/crawler2/css/index.scss */
 .nohighlight {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none; }
 
-/* line 326, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+/* line 394, /Applications/MAMP/htdocs/crawler2/css/index.scss */
 input:focus, select:focus, textarea:focus, button:focus {
   outline: none; }
 
-/* line 329, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+/* line 397, /Applications/MAMP/htdocs/crawler2/css/index.scss */
 .desktop {
   display: block; }
 
-/* line 332, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+/* line 400, /Applications/MAMP/htdocs/crawler2/css/index.scss */
 .mobile {
   display: none; }
 

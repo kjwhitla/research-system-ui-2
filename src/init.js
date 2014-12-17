@@ -63,6 +63,11 @@ $(document).ready(function() {
         animateDrawer();
     });
     
+    // form button
+    $('#btn-form-save').click(function() {
+        $('#saving-indicator').fadeIn().delay('500').fadeOut();
+    });
+    
     // tabs handler
     $('#tabs li a').click(function(e){
         $('#tabs li, #content .current').removeClass('current');

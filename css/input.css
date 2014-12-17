@@ -1,7 +1,10 @@
 .group        { 
   position:relative; 
-  margin-bottom:45px; 
+  margin-bottom:40px; 
     box-sizing: border-box;
+}
+.group-bottom {
+  margin-bottom: 20px; 
 }
 .input-forms input         {
   font-size:18px;
@@ -78,3 +81,16 @@ label          {
   from  { background:#5264AE; }
   to    { width:0; background:transparent; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

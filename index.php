@@ -95,5 +95,6 @@
                 </div>
             </div>
         </div>
+        <div id="saving-indicator"><img src="res/spiner.gif"><div class="text">Saving Data...</div></div>
     </body>
 </html>
