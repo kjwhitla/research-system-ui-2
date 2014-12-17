@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "mediasizes.css",
+  "sources": [
+    "mediasizes.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;;EACA,IAAI;IAEQ,SAAS;IACT,UAAU;IACV,OAAO;IACP,eAAe;IACf,cAAc;IACd,YAAY;;IAAxB,IAAI,QAAQ;MAGI,cAAc;;EAE9B,IAAI;IAEQ,SAAS;;EACrB,IAAI;IAEQ,SAAS;;;;AAuBrB;;EAAA;IAGQ,SAAS;;;EACjB;IAEQ,SAAS",
+  "sourceRoot": ""
+}

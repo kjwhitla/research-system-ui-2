@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 1023px), screen and (max-width: 1023px) {
+  /* line 3, /Applications/MAMP/htdocs/crawler2/css/mediasizes.scss */
+  nav .search {
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 80px;
+    box-sizing: border-box; }
+    /* line 11, /Applications/MAMP/htdocs/crawler2/css/mediasizes.scss */
+    nav .search .fa {
+      margin-right: 100px; }
+  /* line 15, /Applications/MAMP/htdocs/crawler2/css/mediasizes.scss */
+  nav .logo-text {
+    display: none; }
+  /* line 18, /Applications/MAMP/htdocs/crawler2/css/mediasizes.scss */
+  nav .name-text {
+    display: none; }
+
+ }
+
+@media screen and (max-device-width: 675px), screen and (max-width: 675px) {
+  /* line 44, /Applications/MAMP/htdocs/crawler2/css/mediasizes.scss */
+  .desktop {
+    display: none; }
+
+  /* line 47, /Applications/MAMP/htdocs/crawler2/css/mediasizes.scss */
+  .mobile {
+    display: block; }
+ }
+
+/*# sourceMappingURL=mediasizes.css.map */

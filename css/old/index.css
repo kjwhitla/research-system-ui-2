@@ -1,0 +1,277 @@
+/* line 1, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f7f7f7;
+  position: relative; }
+
+/* line 12, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none; }
+
+/* line 16, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #1c97f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  color: #fff;
+  z-index: 100; }
+  /* line 27, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .row {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative; }
+  /* line 32, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .top {
+    box-sizing: border-box; }
+  /* line 35, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .inner {
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative; }
+  /* line 40, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .inline {
+    display: inline-block; }
+  /* line 43, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav input {
+    padding: 10px;
+    width: 50%;
+    vertical-align: middle;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    opacity: 0.6;
+    transition: all 0.3s ease; }
+    /* line 53, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    nav input:hover, nav input:focus {
+      opacity: 1;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24); }
+  /* line 58, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .abs-block {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: 33px;
+    cursor: pointer; }
+  /* line 66, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .logo {
+    padding: 18px 18px 18px 30px;
+    left: 0; }
+    /* line 70, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    nav .logo .vt {
+      padding-left: 30px;
+      background-image: url(../res/vt-logo-white-transparent.png);
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: 0 3px; }
+  /* line 78, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .search {
+    width: 100%;
+    text-align: center; }
+  /* line 82, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .name {
+    padding: 18px 30px 18px 18px;
+    right: 0; }
+    /* line 86, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    nav .name .fa-bars {
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.27);
+      margin-top: 3px;
+      transition: all 0.2s ease; }
+  /* line 93, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .name:hover .fa-bars {
+    color: rgba(0, 0, 0, 0.6); }
+
+/* line 98, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.drop-sheet {
+  display: none;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
+  position: fixed;
+  top: 70px;
+  z-index: 4;
+  border-radius: 4px; }
+
+/* line 108, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.drop-search {
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 500px;
+  width: 50%; }
+
+/* line 115, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.drop-name {
+  right: 5px;
+  background: #6d6d6d; }
+  /* line 119, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .drop-name div {
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #dbdbdb;
+    transition: all 0.2s ease; }
+    /* line 128, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .drop-name div:hover {
+      background: #505050;
+      color: #fff; }
+    /* line 133, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .drop-name div .fa {
+      margin-right: 20px;
+      width: 16px; }
+
+/* line 142, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.main-menu {
+  background: #3c3c3c;
+  position: fixed;
+  height: 100%;
+  width: 18%;
+  left: 0;
+  top: 73px;
+  box-shadow: inset -10px 0 50px rgba(0, 0, 0, 0.18);
+  z-index: 3; }
+  /* line 152, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .main-menu ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    /* line 158, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .main-menu ul li {
+      margin: 0;
+      padding: 0;
+      white-space: nowrap;
+      overflow-y: hidden;
+      border-bottom: 1px solid #767676;
+      text-shadow: 0 1px 3px black; }
+      /* line 166, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+      .main-menu ul li a, .main-menu ul li div {
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        padding: 15px 20px;
+        color: #fff;
+        transition: all 0.2s ease; }
+        /* line 176, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+        .main-menu ul li a:hover, .main-menu ul li div:hover {
+          background-color: #575757; }
+        /* line 180, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+        .main-menu ul li a .fa, .main-menu ul li div .fa {
+          margin-right: 20px;
+          width: 16px;
+          text-align: center; }
+      /* line 188, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+      .main-menu ul li .expand {
+        display: none; }
+
+/* line 194, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.main-content {
+  position: absolute;
+  width: 82%;
+  right: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  z-index: 2;
+  margin-top: 75px; }
+  /* line 203, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .main-content #content > div {
+    display: none;
+    box-sizing: border-box; }
+  /* line 208, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .main-content #content .current {
+    display: block; }
+  /* line 209, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .main-content #content #home.first {
+    display: block; }
+  /* line 213, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .main-content .tabs {
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    height: 500px; }
+    /* line 219, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .main-content .tabs .inner {
+      padding: 10px; }
+
+/* line 228, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.stuff {
+  height: 1000px;
+  background: #fff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+
+/* line 236, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.col {
+  display: inline-block;
+  margin: 0 -4px -4px 0;
+  box-sizing: border-box;
+  position: relative; }
+
+/* line 242, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.col-2 {
+  width: 20%; }
+
+/* line 245, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.col-8 {
+  width: 80%; }
+
+/* line 250, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+@media screen and (max-device-width: 960px), screen and (max-width: 960px) {
+  /* line 275, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav input {
+    width: 40%; }
+
+  /* line 284, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  .main-menu ul li a, .main-menu ul li div {
+    font-size: 12px;
+    padding: 10px; }
+    /* line 287, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+    .main-menu ul li a .fa, .main-menu ul li div .fa {
+      margin-right: 5px;
+      width: 20px; }
+ }
+
+@media screen and (max-device-width: 960px), screen and (max-width: 960px) {
+  /* line 300, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav input {
+    width: 80%; }
+  /* line 303, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .logo-text {
+    display: none; }
+  /* line 306, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .name-text {
+    display: none; }
+ }
+
+@media screen and (max-device-width: 675px), screen and (max-width: 675px) {
+  /* line 315, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .logo {
+    display: none; }
+  /* line 318, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .search {
+    text-align: left; }
+  /* line 321, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav input {
+    width: 85%; }
+  /* line 324, /Applications/MAMP/htdocs/crawler2/css/index.scss */
+  nav .fa-bars {
+    margin-right: 0px; }
+ }
+
+/*# sourceMappingURL=index.css.map */
