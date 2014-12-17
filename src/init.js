@@ -77,7 +77,7 @@ $(document).ready(function() {
         e.preventDefault();
     });
     
-    // tooltip init
+    // tooltip init - menu
     $('.tooltip').tooltipster({
         animation: 'fade',
         delay: 20,
@@ -87,6 +87,15 @@ $(document).ready(function() {
         trigger: 'hover'
     }); 
     $('.tooltip').tooltipster('disable');
+    // tooltip init - form control
+    $('.tooltip2').tooltipster({
+        animation: 'fade',
+        delay: 20,
+        position: 'left',
+        theme: 'tooltipster-default',
+        touchDevices: false,
+        trigger: 'hover'
+    });
     
     // input label position
     $('input').blur(function() {

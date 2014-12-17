@@ -62,7 +62,7 @@
         </div>
     </div>
     <div class="form-control">
-        <button id="btn-form-save" class="save"><i class="fa fa-check"></i></button>
-        <button class="cancel"><i class="fa fa-times"></i></button>
+        <button id="btn-form-save" class="tooltip2 save" title="Save"><i class="fa fa-check"></i></button>
+        <button class="tooltip2 cancel" title="Cancel"><i class="fa fa-times"></i></button>
     </div>
 </div>
