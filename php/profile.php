@@ -6,25 +6,25 @@
         <div class="content">
             <form class="input-forms">
                 <div class="group">      
-                    <input class="blur" type="text" required value="Arnaud">
-                    <span class="blur"  class="highlight"></span>
-                    <span class="blur"  class="bar"></span>
+                    <input type="text" required value="Arnaud">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
                     <label>First name</label>
                 </div>
                 <div class="group">      
-                    <input type="text" required value="Arnaud">
+                    <input type="text" required value="Crowther">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Last name</label>
                 </div>
                 <div class="group">      
-                    <input type="text" required value="Arnaud">
+                    <input type="text" required value="arnaudcrowther@gmail.com">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Title</label>
                 </div>
                 <div class="group group-bottom">      
-                    <input type="text" required value="Arnaud">
+                    <input type="text" required value="">
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Department</label>

@@ -68,6 +68,11 @@ $(document).ready(function() {
         $('#saving-indicator').fadeIn().delay('500').fadeOut();
     });
     
+    // form button
+    $('#btn-notifs').click(function() {
+        $('#section-notifs').slideToggle('fast');
+    });
+    
     // tabs handler
     $('#tabs li a').click(function(e){
         $('#tabs li, #content .current').removeClass('current');
@@ -87,6 +92,7 @@ $(document).ready(function() {
         trigger: 'hover'
     }); 
     $('.tooltip').tooltipster('disable');
+    
     // tooltip init - form control
     $('.tooltip2').tooltipster({
         animation: 'fade',
